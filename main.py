@@ -10,7 +10,7 @@ import google.generativeai as genai
 from moviepy.editor import VideoFileClip
 from dotenv import load_dotenv
 load_dotenv()
-genai.configure(api_key= "AIzaSyDxVTHSjlpSoJ1_uGMgAoszjSicT2LC4xs"
+genai.configure(api_key= "apikey"
 )
 
 from transcribe import transcribe
