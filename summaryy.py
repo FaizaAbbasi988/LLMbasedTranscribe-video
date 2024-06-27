@@ -2,7 +2,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import os
 import google.generativeai as genai
-genai.configure(api_key= "AIzaSyDxVTHSjlpSoJ1_uGMgAoszjSicT2LC4xs"
+genai.configure(api_key= "apikey"
 )
 
 
