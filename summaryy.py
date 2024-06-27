@@ -4,11 +4,6 @@ import os
 import google.generativeai as genai
 genai.configure(api_key= "apikey"
 )
-
-
-
-
-
 prompt="you are a text sumamrizer. your job is to take the text and provide the summary in point-wise fashion. the etxt is as follow:"
 def generate_gemini_content(text,prompt):
     model =genai.GenerativeModel("gemini-pro")
